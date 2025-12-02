@@ -1,0 +1,18 @@
+git 버전 확인
+git --version
+
+C:\KMA\git>cd.. 뒤로가기
+C:\KMA\git>cd git 그 폴더로 들어가기
+
+프로젝트 디렉토리에 로컬 저장소 생성
+git init
+Initialized empty Git repository in C:/KMA/git/.git/
+
+git 버전 관리할 파일을 선택: stage에 올림
+git add test.py
+
+버전 만들기
+git commit -m "test.py를 커밋"
+
+로그확인
+git log
