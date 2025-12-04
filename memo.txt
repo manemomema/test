@@ -16,3 +16,13 @@ git commit -m "test.py를 커밋"
 
 로그확인
 git log
+
+원격 저장소에서 변경된 사항을 가져오기
+git pull origin(가져와서 merge)
+git fetch origin(변경사항을 가져오기만)
+
+.gitignore
+git이 추적하지 않아야 할 파일을 지정하는 파일
+예) 파일이름.확장명
+    *.확장명 -> 이런 확장명을 가진건 아예 추적하지 않음
+    폴더명/ -> 폴더를 추적하고 싶지않다면 사용
